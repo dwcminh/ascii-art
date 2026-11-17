@@ -1,0 +1,14 @@
+# Nothing is published unless it is listed below.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE.txt
+
+# Published artworks: add one line per artwork folder.
+!/HEART/
+!/EIFFEL-TOWER/
+!/DUO-OWL/
+!/ROSE-BOUQUET/
+!/UNIVERSE/
+
+__pycache__/
