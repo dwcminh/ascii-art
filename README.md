@@ -30,8 +30,8 @@ These are the source files behind the reels on Instagram [@dwcminh.ascii](https:
       <a href="UNIVERSE/"><b>UNIVERSE</b></a>
     </td>
     <td align="center" valign="top">
-      <a href="BETTA/"><img src="BETTA/preview.gif" width="240" height="288" alt="BETTA"></a><br>
-      <a href="BETTA/"><b>BETTA</b></a>
+      <a href="BETTA-FISH/"><img src="BETTA-FISH/preview.gif" width="240" height="288" alt="BETTA FISH"></a><br>
+      <a href="BETTA-FISH/"><b>BETTA FISH</b></a>
     </td>
   </tr>
 </table>

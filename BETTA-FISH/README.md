@@ -1,8 +1,8 @@
-# THE BETTA IN ASCII
+# THE BETTA FISH IN ASCII
 
 *An ASCII animation by [@dwcminh.ascii](https://instagram.com/dwcminh.ascii) (2026)*
 
-![THE BETTA IN ASCII](preview.gif)
+![THE BETTA FISH IN ASCII](preview.gif)
 
 ## The idea
 
@@ -30,7 +30,7 @@ Built with Python, NumPy and pygame-ce.
 
 ```
 pip install -r requirements.txt
-python betta.py
+python betta_fish.py
 ```
 
 Keys: `Space` pause · `R` restart · `S` save a screenshot · `Esc` exit

@@ -1,8 +1,8 @@
-# ASCII Betta
+# ASCII Betta Fish
 # @dwcminh.ascii, 2026
 #
 #   pip install numpy pygame-ce
-#   python betta.py
+#   python betta_fish.py
 #
 # A fighting fish, all veils. It starts from nothing: a spark, and out of it a bare body drawn
 # from the nose back to the tail, while plankton spirals in to feed the growing edge. Only then
@@ -851,7 +851,7 @@ def frame(t, cols, rows, aspect):
 
 # window: small letters, so the veils have room for their folds
 
-TITLE = "ASCII Betta"
+TITLE = "ASCII Betta Fish"
 CW, CH, FONT_PX = 7, 10, 11
 COLS, ROWS = 113, 103
 W, H = COLS * CW, ROWS * CH
@@ -956,7 +956,7 @@ def main():
                 COLOUR_CHANGE = not COLOUR_CHANGE
                 pygame.display.set_caption(f"{TITLE} · colours {'on' if COLOUR_CHANGE else 'off'}")
             if e.type == pygame.KEYDOWN and e.key == pygame.K_s:
-                pygame.image.save(screen, str(Path(__file__).with_name(f"betta_{int(time.time())}.png")))
+                pygame.image.save(screen, str(Path(__file__).with_name(f"betta_fish_{int(time.time())}.png")))
         dt = clock.tick(30) / 1000
         if not paused:
             t += min(dt, 1 / 15)
