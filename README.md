@@ -46,6 +46,12 @@ pip install -r requirements.txt
 python heart.py
 ```
 
+## Support
+
+If you enjoy these pieces and want to see more, you can buy me a coffee on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/dwcminhascii)
+
 ## Terms
 
 The code is free for personal, non-commercial use. The full terms are in [LICENSE.txt](LICENSE.txt);
