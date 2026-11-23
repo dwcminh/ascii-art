@@ -56,6 +56,8 @@ If you enjoy these pieces and want to see more, you can buy me a coffee on Ko-fi
 
 The code is free for personal, non-commercial use. The full terms are in [LICENSE.txt](LICENSE.txt);
 each artwork folder carries a copy of the same terms.
+Please don't use the code or the artwork with AI tools (feeding it to AI models, training on it,
+or having an AI rework it).
 If you share something you made with it, please tag @dwcminh.ascii.
 
 The images and videos belong to @dwcminh.ascii. Please ask before reusing them.

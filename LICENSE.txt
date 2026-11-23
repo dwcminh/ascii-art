@@ -20,6 +20,8 @@ What needs my permission first (ask me on Instagram, @dwcminh.ascii):
 
 What's never okay:
   * passing the code or the artwork off as your own
+  * using the code or the artwork with AI tools: feeding it to AI models,
+    training on it, or having an AI rework it
 
 If you share something you made with this, please tag @dwcminh.ascii.
 
