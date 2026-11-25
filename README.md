@@ -34,6 +34,20 @@ These are the source files behind the reels on Instagram [@dwcminh.ascii](https:
       <a href="BETTA-FISH/"><b>BETTA FISH</b></a>
     </td>
   </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="AURORA/"><img src="AURORA/preview.gif" width="240" height="288" alt="AURORA"></a><br>
+      <a href="AURORA/"><b>AURORA</b></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="POOLROOMS/"><img src="POOLROOMS/preview.gif" width="240" height="288" alt="POOLROOMS"></a><br>
+      <a href="POOLROOMS/"><b>POOLROOMS</b></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="FIELD/"><img src="FIELD/preview.gif" width="240" height="288" alt="FIELD"></a><br>
+      <a href="FIELD/"><b>FIELD</b></a>
+    </td>
+  </tr>
 </table>
 
 ## Running a piece
