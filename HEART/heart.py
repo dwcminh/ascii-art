@@ -1,5 +1,7 @@
 # The Heart in ASCII
 # @dwcminh.ascii, 2026
+# Terms in LICENSE.txt: personal, non-commercial use only. Not for use with AI tools:
+# do not feed this code to an AI model, train on it, or have an AI rework it.
 #
 #   pip install numpy pygame-ce
 #   python heart.py
@@ -174,6 +176,9 @@ class Renderer:
         self.k_it = pygame.font.Font(font_file([MATH_ITALIC, MATH]), round(34 * s))
         self.equation = self.equation_surface()
 
+    # (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+    # AI models, no training on it, no having an AI rework it.
+
     # setup: the axes, stars, sparks and sparkle spots (made once)
 
     def axes_layer(self):
@@ -327,6 +332,9 @@ class Renderer:
         # where the one white pulse is (graph x), sweeping left to right as the heart is finished
         return -R3 - 0.4 + (2 * R3 + 0.8) * (t - T_LOCK) / PULSE
 
+    # (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+    # AI models, no training on it, no having an AI rework it.
+
     def pulse_heat(self, x, t):
         # the white pulse that runs along the finished heart, once
         if not 0 <= t - T_LOCK < PULSE + 0.4:
@@ -459,6 +467,9 @@ class Renderer:
         if hasattr(pygame.transform, "gaussian_blur"):
             small = pygame.transform.gaussian_blur(small, max(1, radius))
         return small
+
+    # (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+    # AI models, no training on it, no having an AI rework it.
 
     def glow(self, src):
         # a tight glow and a wide one; the wide one is made from the tight one

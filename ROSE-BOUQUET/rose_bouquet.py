@@ -1,5 +1,7 @@
 # Rose bouquet in ASCII
 # @dwcminh.ascii, 2026
+# Terms in LICENSE.txt: personal, non-commercial use only. Not for use with AI tools:
+# do not feed this code to an AI model, train on it, or have an AI rework it.
 #
 #   pip install numpy pygame-ce
 #   python rose_bouquet.py
@@ -382,6 +384,9 @@ ROSE_APPEAR = None                              # filled in once rose() exists: 
 BLOSSOM_APPEAR = T_BLOSSOM[0] + (T_BLOSSOM[1] - T_BLOSSOM[0]) * np.random.default_rng(43).random(N_BLOSSOM)
 
 
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
+
 # falling petals: each tumbles down from a random rose, drawn in a few letters that change as it
 # turns: face on, tilted one way, edge on, tilted the other way
 
@@ -451,6 +456,9 @@ def stars(t):
     kind = np.select([g[:, 2] % 0.25 < 0.045, g[:, 2] % 0.25 < 0.08, g[:, 2] % 0.25 < 0.105], [STAR_PINK, STAR_BLUE, GOLD], GLINT)
     return np.stack([x, y, z], 1), glow, kind
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # light, motion, camera
 
@@ -840,6 +848,9 @@ def message(char, col, t, cw, ch):
         letters.append((letter, x0 + advance * (i + 0.5), np.clip(tint, 0, 1)))
     return {"size": size, "y": (row + 0.5) * ch, "letters": letters}
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # window
 

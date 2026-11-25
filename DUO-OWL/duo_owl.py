@@ -1,5 +1,7 @@
 # ASCII Duo (fan art of the Duolingo owl, the one with the big behind)
 # @dwcminh.ascii, 2026
+# Terms in LICENSE.txt: personal, non-commercial use only. Not for use with AI tools:
+# do not feed this code to an AI model, train on it, or have an AI rework it.
 #
 #   pip install numpy pygame-ce
 #   python duo_owl.py
@@ -287,6 +289,9 @@ def creases():
 
 CREASES = creases()
 
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
+
 # camera
 EYE_POS, TARGET = np.array([0.0, 0.42, 4.8]), np.array([0.0, 0.06, -0.05])
 FWD = unit(TARGET - EYE_POS)
@@ -527,6 +532,9 @@ HEART = np.array([[c == "#" for c in row] for row in (" ## ## ", "#######", " ##
 RING = np.random.default_rng(4).random((260, 3))
 HEART_SEED = np.random.default_rng(6).random((60, 4))
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # little flags, 7 x 3 cells: each letter is a colour; the marks are drawn as a character
 FLAG_INK = {"R": (1.00, 0.20, 0.25), "W": (0.95, 0.96, 1.00), "Y": (1.00, 0.84, 0.10), "B": (0.22, 0.42, 1.00),
@@ -814,6 +822,9 @@ def frame(t, cols, rows, aspect, cell):
     out = {"deg": info["deg"], "hearts": len(live), "letters": int((char > 0).sum())}
     return char, col, out
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # window
 

@@ -1,5 +1,7 @@
 # ASCII Universe
 # @dwcminh.ascii, 2026
+# Terms in LICENSE.txt: personal, non-commercial use only. Not for use with AI tools:
+# do not feed this code to an AI model, train on it, or have an AI rework it.
 #
 #   pip install numpy pygame-ce
 #   python universe.py
@@ -406,6 +408,9 @@ TOWER_PTS, TOWER_WAY = tower_lines()
 LAMPS = np.array([(-12.5, 94.0, -9.0), (-46, 58, -14), (40, 58, -34), (34, 52, 40)], float)   # the beacon, the floodlights
 PAD_AXES = rocket(0.0)[1]                                       # the pad's own axes: the rocket's, before it moves
 
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
+
 # smoke: balls of it rolling out along the ground from under the engines, growing as they go
 N_SMOKE = 72
 SMOKE_SEED = np.random.default_rng(3).random((N_SMOKE, 5))
@@ -733,6 +738,9 @@ def write(char, col, y, x, text, rgb, k):
     for i, ch in enumerate(text):
         put(char, col, y, x + i, ch, rgb, k)
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # the solar system as a picture. True to scale it is all dots (every planet smaller than one
 # letter), so here it is drawn the way it is in books: the planets big and close together, in the
@@ -1292,6 +1300,9 @@ def frame(t, cols, rows, aspect, cell):
     info = {"hud": hud, "letters": int((char > 0).sum()), "trail": TRAIL * (1 - 0.8 * flying)}
     return char, col, info
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # window
 

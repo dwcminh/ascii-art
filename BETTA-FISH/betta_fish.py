@@ -1,5 +1,7 @@
 # ASCII Betta Fish
 # @dwcminh.ascii, 2026
+# Terms in LICENSE.txt: personal, non-commercial use only. Not for use with AI tools:
+# do not feed this code to an AI model, train on it, or have an AI rework it.
 #
 #   pip install numpy pygame-ce
 #   python betta_fish.py
@@ -251,6 +253,9 @@ def grown(t):
 def opened(t, span):
     return float(smooth((t - span[0]) / (span[1] - span[0])))
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # the fins: sheets that spring from the body. a runs along the line a fin springs from, r out
 # along its rays from the body (0) to the hem (1). What makes them silk is the sideways wave.
@@ -636,6 +641,9 @@ def dots(char, col, dep, p, glyph, rgb, k, cols, rows, aspect):
     col[iy[ok], ix[ok]] = rgb[ok] * k[ok, None]
 
 
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
+
 # plankton: motes that spiral in out of the dark to the growing edge of the body and feed it
 
 N_MOTES, MOTE_FLY = 150, 1.8
@@ -755,6 +763,9 @@ def breath(t):
         out.append((p, BREATH_GLYPH[size], np.tile(PALE(BUBBLE, 0.4), (4, 1)), 0.95 * fade))
     return out
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # fireworks: the last two beats throw sparks all round. Each spark is a head with a tail
 # behind it along its own path; they slow in the water, flicker and crumble to dust.

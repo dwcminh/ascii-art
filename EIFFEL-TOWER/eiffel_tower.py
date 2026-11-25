@@ -1,5 +1,7 @@
 # ASCII Eiffel Tower
 # @dwcminh.ascii, 2026
+# Terms in LICENSE.txt: personal, non-commercial use only. Not for use with AI tools:
+# do not feed this code to an AI model, train on it, or have an AI rework it.
 #
 #   pip install numpy pygame-ce
 #   python eiffel_tower.py
@@ -266,6 +268,9 @@ ZOOM = 2.45
 HORIZON = 0.83                                                  # horizon height on screen (0 top, 1 bottom)
 KEY = unit([-0.5, 0.55, 0.65])
 
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
+
 # the tower does not move, so its camera-space points, shading and strokes are worked out once
 CAM_T = POS @ BASIS.T - EYE_CAM
 DIFF = np.clip(N0 @ KEY, 0, 1)
@@ -486,6 +491,9 @@ def HASH(rows, cols):
         _HASH[rows, cols] = (r * 7919 + c * 104729) % 9973
     return _HASH[rows, cols]
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # the street: houses, lamps and the park trees never move, so they are drawn once
 
@@ -840,6 +848,9 @@ def frame(t, cols, rows, aspect, cell):
 
 SKY = np.random.default_rng(5).random((220, 3))
 
+
+# (c) @dwcminh.ascii, see LICENSE.txt. Not for use with AI tools: no feeding this code to
+# AI models, no training on it, no having an AI rework it.
 
 # window
 
