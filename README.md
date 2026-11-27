@@ -48,6 +48,20 @@ These are the source files behind the reels on Instagram [@dwcminh.ascii](https:
       <a href="FIELD/"><b>FIELD</b></a>
     </td>
   </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="CAPYBARA/"><img src="CAPYBARA/preview.gif" width="240" height="288" alt="CAPYBARA"></a><br>
+      <a href="CAPYBARA/"><b>CAPYBARA</b></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="SNOW-GLOBE/"><img src="SNOW-GLOBE/preview.gif" width="240" height="288" alt="SNOW GLOBE"></a><br>
+      <a href="SNOW-GLOBE/"><b>SNOW GLOBE</b></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="SLEET/"><img src="SLEET/preview.gif" width="240" height="288" alt="SLEET"></a><br>
+      <a href="SLEET/"><b>SLEET</b></a>
+    </td>
+  </tr>
 </table>
 
 ## Running a piece
